@@ -11,18 +11,22 @@ if (operation=="+")
     Console.WriteLine("You chose addition! (+)");
 }
 
-if (operation == "-")
+else if (operation == "-")
 {
     Console.WriteLine("You chose subtraction! (-)");
 }
 
-if (operation == "/")
+else if (operation == "/")
 {
     Console.WriteLine("You chose division! (/)");
 }
 
-if (operation == "*")
+else if (operation == "*")
 {
     Console.WriteLine("You chose multiplication! (*)");
+}
+else 
+{
+    Console.WriteLine("Invalid operation, please try with the following options: (+,-,*,/)");
 }
 }
