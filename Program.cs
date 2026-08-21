@@ -2,7 +2,8 @@
 
 // Basic Operation detection program..
 
-
+while (true)
+{
 string operation = Console.ReadLine();
 
 if (operation=="+")
@@ -23,4 +24,5 @@ if (operation == "/")
 if (operation == "*")
 {
     Console.WriteLine("You chose multiplication! (*)");
+}
 }
